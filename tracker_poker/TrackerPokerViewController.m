@@ -9,6 +9,7 @@
 #import "TrackerPokerViewController.h"
 
 @implementation TrackerPokerViewController
+@synthesize display;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +27,7 @@
 
 - (void)viewDidUnload
 {
+    [self setDisplay:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -57,4 +59,10 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (void)dealloc {
+    [display release];
+    [super dealloc];
+}
+- (IBAction)cardPressed:(UIButton *)sender {
+}
 @end

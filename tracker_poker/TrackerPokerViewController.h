@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TrackerPokerViewController : UIViewController
+@property (retain, nonatomic) IBOutlet UILabel *display;
+- (IBAction)cardPressed:(UIButton * )sender;
 
 @end
