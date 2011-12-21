@@ -7,8 +7,13 @@
 //
 
 #import "CardViewController.h"
-
+@interface CardViewController()
+@property (readonly) Dealer* dealer;
+@end
 @implementation CardViewController
+- (Dealer *) dealer{
+    return [Dealer sharedInstance];
+}
 @synthesize result;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -34,6 +39,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    NSLog(@"Card load %@", self.dealer.vote);
+    result.text = self.dealer.vote;
+
 }
 
 - (void)viewDidUnload

@@ -7,9 +7,16 @@
 //
 
 #import "TrackerPokerViewController.h"
+@interface TrackerPokerViewController()
+@property (readonly) Dealer* dealer;
+@end
 
 @implementation TrackerPokerViewController
 @synthesize display;
+
+- (Dealer *) dealer{
+  return [Dealer sharedInstance];
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -64,5 +71,11 @@
     [super dealloc];
 }
 - (IBAction)cardPressed:(UIButton *)sender {
+    NSLog(@"Sender Text %@", sender.titleLabel.text);
+    self.dealer.vote = sender.titleLabel.text;
+    NSLog(@"Vote Pressed %@", self.dealer.vote);
+    UIViewController* cardViewController = [[CardViewController alloc] initWithNibName:nil bundle:[NSBundle mainBundle]];
+    [self presentModalViewController:cardViewController animated:YES];
+
 }
 @end

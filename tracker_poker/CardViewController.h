@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Dealer.h"
 
 @interface CardViewController : UIViewController
 - (IBAction)closePressed:(UIButton *)sender;

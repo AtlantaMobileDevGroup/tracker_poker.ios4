@@ -22,6 +22,7 @@
 		CEFC4A2D14A15C7000D1C7ED /* tracker_pokerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC4A2C14A15C7000D1C7ED /* tracker_pokerTests.m */; };
 		CEFC4A3914A15FD900D1C7ED /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC4A3714A15FD900D1C7ED /* CardViewController.m */; };
 		CEFC4A3A14A15FD900D1C7ED /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFC4A3814A15FD900D1C7ED /* CardViewController.xib */; };
+		CEFC4A3D14A163BE00D1C7ED /* Dealer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC4A3C14A163BE00D1C7ED /* Dealer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		CEFC4A3614A15FD900D1C7ED /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
 		CEFC4A3714A15FD900D1C7ED /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
 		CEFC4A3814A15FD900D1C7ED /* CardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
+		CEFC4A3B14A163BE00D1C7ED /* Dealer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dealer.h; sourceTree = "<group>"; };
+		CEFC4A3C14A163BE00D1C7ED /* Dealer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dealer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				CEFC4A3714A15FD900D1C7ED /* CardViewController.m */,
 				CEFC4A3814A15FD900D1C7ED /* CardViewController.xib */,
 				CEFC4A0814A15C6F00D1C7ED /* Supporting Files */,
+				CEFC4A3B14A163BE00D1C7ED /* Dealer.h */,
+				CEFC4A3C14A163BE00D1C7ED /* Dealer.m */,
 			);
 			path = tracker_poker;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 				CEFC4A1214A15C6F00D1C7ED /* TrackerPokerAppDelegate.m in Sources */,
 				CEFC4A1514A15C6F00D1C7ED /* TrackerPokerViewController.m in Sources */,
 				CEFC4A3914A15FD900D1C7ED /* CardViewController.m in Sources */,
+				CEFC4A3D14A163BE00D1C7ED /* Dealer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
