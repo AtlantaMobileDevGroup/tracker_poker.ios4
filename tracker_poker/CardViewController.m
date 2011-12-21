@@ -9,6 +9,7 @@
 #import "CardViewController.h"
 
 @implementation CardViewController
+@synthesize result;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -37,6 +38,7 @@
 
 - (void)viewDidUnload
 {
+    [self setResult:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -48,4 +50,11 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)closePressed:(UIButton *)sender {
+    [self dismissModalViewControllerAnimated:YES];
+}
+- (void)dealloc {
+    [result release];
+    [super dealloc];
+}
 @end

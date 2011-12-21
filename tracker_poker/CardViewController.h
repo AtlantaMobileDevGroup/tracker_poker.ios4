@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface CardViewController : UIViewController
+- (IBAction)closePressed:(UIButton *)sender;
+@property (retain, nonatomic) IBOutlet UILabel *result;
 
 @end
