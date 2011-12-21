@@ -20,6 +20,8 @@
 		CEFC4A2214A15C7000D1C7ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFC4A0314A15C6F00D1C7ED /* Foundation.framework */; };
 		CEFC4A2A14A15C7000D1C7ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEFC4A2814A15C7000D1C7ED /* InfoPlist.strings */; };
 		CEFC4A2D14A15C7000D1C7ED /* tracker_pokerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC4A2C14A15C7000D1C7ED /* tracker_pokerTests.m */; };
+		CEFC4A3914A15FD900D1C7ED /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC4A3714A15FD900D1C7ED /* CardViewController.m */; };
+		CEFC4A3A14A15FD900D1C7ED /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFC4A3814A15FD900D1C7ED /* CardViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +39,24 @@
 		CEFC4A0114A15C6F00D1C7ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEFC4A0314A15C6F00D1C7ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CEFC4A0514A15C6F00D1C7ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CEFC4A0914A15C6F00D1C7ED /* tracker_poker-Info.plist */ = {isa = PBXFileReference; path = "tracker_poker-Info.plist"; sourceTree = "<group>"; };
+		CEFC4A0914A15C6F00D1C7ED /* tracker_poker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tracker_poker-Info.plist"; sourceTree = "<group>"; };
 		CEFC4A0B14A15C6F00D1C7ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEFC4A0D14A15C6F00D1C7ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CEFC4A0F14A15C6F00D1C7ED /* tracker_poker-Prefix.pch */ = {isa = PBXFileReference; path = "tracker_poker-Prefix.pch"; sourceTree = "<group>"; };
-		CEFC4A1014A15C6F00D1C7ED /* TrackerPokerAppDelegate.h */ = {isa = PBXFileReference; path = TrackerPokerAppDelegate.h; sourceTree = "<group>"; };
+		CEFC4A0F14A15C6F00D1C7ED /* tracker_poker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tracker_poker-Prefix.pch"; sourceTree = "<group>"; };
+		CEFC4A1014A15C6F00D1C7ED /* TrackerPokerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackerPokerAppDelegate.h; sourceTree = "<group>"; };
 		CEFC4A1114A15C6F00D1C7ED /* TrackerPokerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackerPokerAppDelegate.m; sourceTree = "<group>"; };
-		CEFC4A1314A15C6F00D1C7ED /* TrackerPokerViewController.h */ = {isa = PBXFileReference; path = TrackerPokerViewController.h; sourceTree = "<group>"; };
+		CEFC4A1314A15C6F00D1C7ED /* TrackerPokerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackerPokerViewController.h; sourceTree = "<group>"; };
 		CEFC4A1414A15C6F00D1C7ED /* TrackerPokerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackerPokerViewController.m; sourceTree = "<group>"; };
 		CEFC4A1714A15C7000D1C7ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TrackerPokerViewController.xib; sourceTree = "<group>"; };
 		CEFC4A1E14A15C7000D1C7ED /* tracker_pokerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tracker_pokerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFC4A1F14A15C7000D1C7ED /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CEFC4A2714A15C7000D1C7ED /* tracker_pokerTests-Info.plist */ = {isa = PBXFileReference; path = "tracker_pokerTests-Info.plist"; sourceTree = "<group>"; };
+		CEFC4A2714A15C7000D1C7ED /* tracker_pokerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tracker_pokerTests-Info.plist"; sourceTree = "<group>"; };
 		CEFC4A2914A15C7000D1C7ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CEFC4A2B14A15C7000D1C7ED /* tracker_pokerTests.h */ = {isa = PBXFileReference; path = tracker_pokerTests.h; sourceTree = "<group>"; };
+		CEFC4A2B14A15C7000D1C7ED /* tracker_pokerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tracker_pokerTests.h; sourceTree = "<group>"; };
 		CEFC4A2C14A15C7000D1C7ED /* tracker_pokerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tracker_pokerTests.m; sourceTree = "<group>"; };
+		CEFC4A3614A15FD900D1C7ED /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		CEFC4A3714A15FD900D1C7ED /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		CEFC4A3814A15FD900D1C7ED /* CardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +121,9 @@
 				CEFC4A1314A15C6F00D1C7ED /* TrackerPokerViewController.h */,
 				CEFC4A1414A15C6F00D1C7ED /* TrackerPokerViewController.m */,
 				CEFC4A1614A15C7000D1C7ED /* TrackerPokerViewController.xib */,
+				CEFC4A3614A15FD900D1C7ED /* CardViewController.h */,
+				CEFC4A3714A15FD900D1C7ED /* CardViewController.m */,
+				CEFC4A3814A15FD900D1C7ED /* CardViewController.xib */,
 				CEFC4A0814A15C6F00D1C7ED /* Supporting Files */,
 			);
 			path = tracker_poker;
@@ -224,6 +232,7 @@
 			files = (
 				CEFC4A0C14A15C6F00D1C7ED /* InfoPlist.strings in Resources */,
 				CEFC4A1814A15C7000D1C7ED /* TrackerPokerViewController.xib in Resources */,
+				CEFC4A3A14A15FD900D1C7ED /* CardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +270,7 @@
 				CEFC4A0E14A15C6F00D1C7ED /* main.m in Sources */,
 				CEFC4A1214A15C6F00D1C7ED /* TrackerPokerAppDelegate.m in Sources */,
 				CEFC4A1514A15C6F00D1C7ED /* TrackerPokerViewController.m in Sources */,
+				CEFC4A3914A15FD900D1C7ED /* CardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
